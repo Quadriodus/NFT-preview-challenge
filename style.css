@@ -32,6 +32,10 @@ body {
   margin: 20px;
 }
 
+.equi:hover {
+    color: hsl(178, 100%, 50%);
+  } 
+
 .number {
   display: flex;
   align-items: center;
@@ -55,9 +59,12 @@ body {
 
 .footer {
   display: flex;
+  color: white;
   width: 90%;
   align-items: center;
   padding: 5px;
   gap: 0.9rem;
   border-top: 1px solid grey;
 }
+
+
