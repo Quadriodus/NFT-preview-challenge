@@ -1,61 +1,63 @@
-*{
-    box-sizing: border-box;
- }
+* {
+  box-sizing: border-box;
+}
 
 body {
-    background-color: hsl(217, 54%, 11%) ;
-    font-family: 'Fraunces', serif;
-    font-family: 'Outfit', sans-serif;  
-    font-size: 14px;
-    font-weight: 300, 400, 600 
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Fraunces", serif;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 300px, 400px, 600px;
 }
 
-.section { display: flex;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
+.section {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.flex-container { 
-    display: flex ;
-    flex-direction: column;
-    padding: 30px;
-    border-radius: 10px ;
-    background-color:  hsl(216, 50%, 16%);           
+.flex-container {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
 }
 
 .flex-container > div {
-    margin:10px;
+  margin: 20px;
 }
 
-.number { display:flex;
-          align-items: center;
-          gap:0.6rem;
-          color:hsl(0, 0%, 100%);
+.number {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: hsl(0, 0%, 100%);
 }
 
-.number2prem { 
-    gap: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
-.number2  { display:flex;
-            justify-content: center;
-            align-items: center;
-            gap:0.1rem; 
+.number2prem {
+  gap: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer { 
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    gap:0.9rem;
-    border-top:1px solid grey ;
+.number2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
 }
 
-@media screen and (max-width:1440px) { 
-img {border-radius: 7px ;} 
+.footer {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  padding: 5px;
+  gap: 0.9rem;
+  border-top: 1px solid grey;
 }
