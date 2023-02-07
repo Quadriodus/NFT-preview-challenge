@@ -12,29 +12,58 @@ body {
 
 .section {
   display: flex;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
   align-items: center;
 }
 
 .flex-container {
-  margin: 0px 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
+  height: 100%;
+  height: 80%;
+  margin-top: 15px;
+  margin: auto;
 }
 
 .flex-container > div {
-  margin: 20px;
+  margin: 15px;
 }
 
-.equi:hover {
-    color: hsl(178, 100%, 50%);
-  } 
+.flex-container .Img-1 {
+  width: 350px;
+  border-radius: 25px;
+}
+
+.Box-1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.Box-1 h1 {
+  font-size: 22px;
+}
+
+.size {
+  font-size: 18px;
+}
+
+.txt-1 {
+  color: hsl(228, 12%, 48%);
+  font-size: 20px;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-size: 17px;
+}
+
+.Img-2 {
+  width: 12px;
+}
+
+.days {
+  color: hsl(228, 12%, 48%);
+}
 
 .number {
   display: flex;
@@ -46,18 +75,24 @@ body {
 .number2prem {
   gap: 8rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .number2 {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 0.1rem;
 }
 
-.footer {
+.Img-3 {
+  width: 37px;
+}
+
+.equi:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.flex-container .footer {
   display: flex;
   color: white;
   width: 90%;
@@ -66,5 +101,3 @@ body {
   gap: 0.9rem;
   border-top: 1px solid grey;
 }
-
-
